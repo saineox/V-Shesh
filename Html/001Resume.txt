@@ -1,0 +1,76 @@
+Pradeep Tukaram Kadam Ui/Ux Developer
+pradeeptraje@gmail.com | (+91) 9226325101
+Profile Summary
+3.6+ years of experience working as associate partner of Profitmart Securities Pvt. Ltd. 2+ years work as a freelancer.
+I am a fast learner, who embodies the skills of being a strategic thinker and a good listener. I have always tried to be innovative in the areas of Information Technology consulting, software handling,network security and support.
+
+IT Skills
+	Web Technologies: HTML5, CSS3, Core-Java, JPA/Hibernate, Spring, SpringBoot.
+	Languages: Core-Java JDK 1.8, AFL, PineScript.
+	IDE & Tools: Eclipse, SpringToolSuite, Notepad++, AutoGUI, Visual Studio.
+	Database: MySQL.
+	Cloud Technologies: AWS-Ec2,S3.
+	Content Management System: Blogger.
+	Development Tools: Adobe Photoshop cs6, Muvee Reveal Encore 7.0.
+	Other Tools & Technologies: AHK, Vmware WorkStation/VirtualBox/Hyper-V, Windows Live writer.
+
+EXPERIENCE
+Feb 2022 – May 2022
+Content Moderator, Accenture Solutions Pvt. Ltd, Mumbai Maharastra.	 
+	Reviewing website content, including text and images, to ensure that it follows company guidelines
+	Reviewing content to determine if it violates any laws or regulations, such as those pertaining to hate speech, bullying, or harassment
+	Reviewing content for plagiarism or copyright infringement, or for obscene language or pornographic images
+	Reviewing content for obscene language or pornographic images, such as photos or videos, which might violate state laws regarding child pornography
+	Monitoring social media channels for illegal activity or violations of company policies
+	Reviewing content for libelous statements or violations of intellectual property rights such as copyright infringement or trademark infringement
+	Reviewing content for potential threats to public health or safety, such as instructions on how to make explosive devices or biological weapons
+	Reviewing content for bias or discrimination against specific groups of people based on age, race, religion, disability status, sexual orientation, or gender identity or expression
+	Reviewing content for legality in order to remove any illegal or inappropriate material
+
+June 2018 – Feb 2022
+Partner, Profitmart Securities Pvt. Ltd. Kolhapur, Maharastra
+•	Handling 4 members of team and mentoring them.
+•	Record results of Algo-Trading tests of Crazy Trader Pro Server.(AHK, Java, Spring-boot)
+•	Providing live training support for trading indicators and software.
+•	Develop and provide trading indicators, strategy as UI requirements.
+•	AWS (configure The Image With Ready Crazy Trader Pro Server with Auto Login Facility).
+•	Provide own developed Algo-Trading software for our clients.
+•	Performed peer code reviews to ensure proper coding practices.
+
+
+Apr 2015 -July2018
+Freelancer, Master Capital Services Limited.Maharastra.
+•	Handling 4 members of team and mentoring them.
+•	Record results of Algo-Trading tests of Crazy Trader Pro Server.(AHK, Java, Spring-boot)
+•	Providing live training support for trading indicators and software.
+•	Develop and provide trading indicators, strategy as UI requirements.
+•	AWS (configure The Image With Ready Crazy Trader Pro Server with Auto Login Facility).
+•	Provide own developed Algo-Trading software for our clients.
+•	Performed peer code reviews to ensure proper coding practices.
+
+EDUCATION
+	Completed MBA-IT 1 st year, from Sikkim Manipal University, Maharastra.	April 2012
+Discontinued MBA-IT-2 nd year, I had medical complications.
+	Completed MCA1st year, from Jaywantrao Shikshan Prasarak Mandal, Pune, Maharastra. April 2010
+Discontinued MCA2 nd year, I had major accident.
+	Completed BCA from Sinhgad college of commerce, Pune, Maharastra(PuneUniversity). April 2009
+	Completed HSC Sci from Sambhajirao Mane Jr Collage Gadhinglaj(Maharastra Board).	Feb 2006
+	Completed SSC from Uttur Vidhyalay Uttur, Uttur Maharastra (Maharastra Board).	March 2004
+
+CERTIFICATES
+	Pursuing: Bootstrap, JavaScript, jQuery, ReactJs from upGrad and Career Edge from TCS iON Pursuing.
+	Completed Java Basic Program, OOPs In Java, Intro to Oracle SQL, Smart English Basics for Professionals from Great Learning Academy.
+	Completed AFCEH v3.0 Ankit Fadia Certified Ethical Hacker from Reliance Center Pune.
+ 
+FREELANCE RPROJECTS
+Crazy Trader Pro Server: (Windows 2016 64Bit /Windows 10 64Bit, JAVA, AHK,MS-Dos). www.jscoemech.com: Java, MySql, SpringBoot, Bootstrap, HTML5, CSS3.
+Kadam GroupV3.0 :		Web-Platform, pinescript v3/v4 (TradingView,Html5,CSS). KG ADX v1.0 :	Web-Platform, pinescript v3/v4 (TradingView).
+Trading Level v1.0/2.0 : Web-Platform, pinescript v3/v4 (TradingView).
+
+Personal Informaatin
+Address: Deep Nivas,House no 82, Behind reliance petrol pump,Near mattan market, Sankeshwar road, Gadhinglaj, Tal:Gadhinglaj,Dist:kolhapur,416502 (IN).
+
+     Languages: English, Hindi, and Marathi.
+DOB: 05 th Aug 1988.
+
+Special ability: Locomotory, Disability Paraplegic 60%.
