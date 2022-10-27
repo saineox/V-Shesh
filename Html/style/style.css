@@ -1,0 +1,56 @@
+body
+{
+    background-color: black;
+    color:white;
+}
+.profile_pic {
+    position: relative;
+    float: right;
+    display: inline-flex;
+    flex-direction: column-reverse;
+    width: calc(100% - 25px);
+
+    vertical-align: middle;
+    align-items: center;
+    justify-content: center;
+
+
+    /* width: calc(60% - 500px);
+    width: 25vmin;
+     */
+}
+
+.top_name h2, h4 {
+
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.1);
+    background: url('fire.png') repeat-x;
+    background-size: 100px;
+   
+    -webkit-background-clip:text;
+    animation: fire 36s linear infinite;
+}
+    /* Animating the image */
+  @keyframes fire {
+            /* 0% {
+
+                background-position: left 0 top 10px;
+
+            } */
+
+            /* 30% {
+                background-position: left 1000px top 0;
+
+            } */
+
+            70% {
+
+                background-position: left 2000px top -5px;
+            }
+
+            100% {
+
+                background-position: left 3000px top -10px;
+            }
+
+        }
