@@ -1,3 +1,17 @@
 label {
     display: block;
 }
+
+h5 {
+    color: red;
+    text-decoration-style: double;
+    text-decoration-thickness: 5px;
+}
+
+h4 {
+    text-decoration-line: underline;
+}
+
+h3 {
+    text-decoration: dashed;
+}

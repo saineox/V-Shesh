@@ -1,0 +1,22 @@
+.top_name {
+    color: red;
+    text-align: center;
+}
+
+.profile_pic {
+
+    position: absolute;
+    top: 2%;
+    right: 3%;
+    width: 44%;
+}
+
+.summary>p {
+    color: #51c20ab4;
+    width: 70%;
+    display: block;
+}
+
+.skills>h3 {
+    color: #db11db;
+}
