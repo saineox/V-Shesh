@@ -1,0 +1,9 @@
+.fonttest {
+    font-size: 100%;
+    padding: 5%;
+    margin: 5%;
+    min-width: 426px;
+    border-style: dashed double;
+    border-color: red green purple violet;
+    border-width: medium;
+}
