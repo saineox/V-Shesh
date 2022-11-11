@@ -1,0 +1,11 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    border: 5px dotted lime;
+    padding: 1px;
+}
+
+.item {
+    border: 3px solid red;
+    padding: 5px;
+}

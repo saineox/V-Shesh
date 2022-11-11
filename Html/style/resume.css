@@ -1,6 +1,22 @@
+body {
+    margin: 3%;
+    width: 94%;
+}
+
+.top {
+    padding: 2%;
+    text-align: center;
+    min-width: 425px;
+    display: inline-block;
+
+}
+
 .top_name {
     color: red;
     text-align: center;
+    font-size: 100%;
+    padding: 5%;
+
 }
 
 .profile_pic {
