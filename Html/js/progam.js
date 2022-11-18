@@ -1,228 +1,329 @@
-// Number - Any numerical values. It can be Positive, Negative, Fractional, Decimal value
+// Number -> Any numerical value from Positive, Negative, Fractional, Decimal
 
-// String - Any Text value. It can be A-Z, a-z, 0-9, special character (@#$%). It should be enclosed in Single or Double Quote ('', "")
+// Syntax To create a Variable (Temp Storage)
 
-// Boolean - Either true or false
+// var variable_name = value;
+// variable_name -> Any valid text, it should contains a-z, A-Z, 0-9, _, $
 
-// null - Non Existance of value
+var age = 28;
+console.log(age);
 
-// undefined - Value is not yet definied. 
+// String -> Any text value which is typed inside '' or ""
 
-// Variable Declaration 
-// syntax:
-// var variable_name = value; 
-// variable_name - we need to provide a meaningful name, It should contains A-Z, a-z, 0-9, _ , $
-// value - Number, String, Boolean, null, undefined
+var email_id = "karthick@gmail.com";
+console.log(email_id);
 
-var username = "Karthick Kumar";
-var user_age = 28;
-var result = true;
-var futureValue; //A variable has been declared but its value not yet assinged.
+// Boolean -> Either true or false
 
-console.log(username);
-console.log(user_age);
-console.log(futureValue);
+var result_status = true;
+console.log(result_status);
 
-user_age = 30;
+var future_value;
+console.log(future_value);
 
-console.log(user_age);
+// Object -> It is collection of Key and Values
 
-//Student Information 
+// var variable_name = {
+//   key1 : value,
+//   key2 : value
+// }
 
-var first_name = "mr.abc";
-var last_name = "xyz";
-var email_id = "abc@ymail.com";
-var roll_number = 4795854;
-var mark = 80;
+// key -> Similar to variable_name -> it should contains a-z, A-Z, 0-9, _, $
+// value -> Number, String, Boolean, Object, Array, Function
 
-/*
-Object - It is a collection of key and value (collection of property)
-syntax
-var variable_name = {
-  key : value,
-  key : value
-}
+var first_name = "karthick";
+var last_name = "kumar";
+var roll_number = 47859;
+var grade = "A+";
+var _location = "Chennai";
 
-key - It is also similar to variable name and it should be unique inside the Object.
-Value - Number, String, Boolean, null, undefined, Object, Array, Function 
-*/
-
-var student_information = {
-  first_name : "mr.abc",
-  last_name : "zyx",
-  email_id : "abc@ymail.com",
-  roll_number : 457856,
-  mark : 80
+var studentDetails = {
+  first_name: "karthick",
+  last_name: "kumar",
+  roll_number: 47859,
+  grade: "A+",
+  location: "Chennai",
 };
 
-console.log(student_information);
+console.log(studentDetails);
 
-/*
-Operations in Object 
-1. Read a value from Object
-2  Insert a new value to the Object
-3. Edit/Update a value from Object
-4. Detelte value from Object 
+// Object -> 4 operation = read value, insert new value, edit exisiting value, delete existing value.
 
-To Read a value from Object
-syntax
-object_variale_name.key  
-*/
+// To Read a Value -> object_variable_name.key;
+console.log(studentDetails.first_name);
+console.log(studentDetails.grade);
 
-console.log(student_information.email_id)
+// To Insert a new Value -> object_variable_name.newKey = value;
+studentDetails.blood_group = "O positive";
 
-/*
-To Insert a new value to the Object
-syntax
-object_variable_name.newKey = newValue;
-*/
-student_information.contact_number = 98755465256;
-student_information.blood_group = "A +ve";
+// To Edit/Updated an exisiting value -> object_variable_name.existing_key = new_value;
+studentDetails.location = "Mumbai";
 
-/*
-To Edit/Update a value from Object
-syntax
-object_variable_name.key = newValue;
-*/
+// To delete a existing Record -> delete object_variable_name.key;
+delete studentDetails.location;
 
-student_information.last_name = "kumar";
-student_information.email_id = "k@gmail.com";
+console.log(studentDetails);
 
-/*
-To Detelte value from Object 
-syntax 
-delete object_variable_name.key;
-*/
-delete student_information.blood_group;
+// Array -> It is a collection of List data (List of Data)
 
-// Array - It is list of similar data type
-// syntax 
-// var variable_name = [value1, value2, ... , valueN];
-// Value - Number, String, Boolean, null, undefined, Object, Array, Function 
+// Syntax of creating an Array
 
-var list_of_numbers = [1, 2, -20, 2.5, 48, 89, 75, 67, 78];
+// var variable_name = [ value_1, value_2, ... , Value_n ];
+// value -> Number, String, Boolean, Object, Array, Function
 
-var list_of_names = ["mr.abc", "mr.cde", "mr.see", "mr.pous"];
+var list_of_mark = [70, 85, 57, 78, 35];
 
-var list_student_information = [
-  {name : "mr.abc", roll_number : 478569856, email: "abc@gmail.com" },
-  {name : "mr.cde", roll_number : 7844946465, email: "cde@gmail.com"},
-  {name : "mr.zyx", roll_number : 5852655555, email: "zyx@gmail.com"}
+var name_list = ["Karthick", "Ajay", "sdfsdfsd", "sdfsdf"];
+
+var studentList = [
+  { name: "Karthick", age: 24 },
+  { name: "Ak", age: 20 },
+  { name: "Yuvi", age: 25 },
 ];
 
-console.log(list_of_names);
-console.log(list_student_information);
-/*
-Operations in Array 
-1. Read a value from Array
-2  Insert a new value to the Array
-3. Edit/Update a value from Array
-4. Delete value from Array 
+// Operation in Array -> 4 Operation = Insert a new value, Read the Value, Edit the exiting value, Delete the value
 
-To Read a value from Array
-syntax 
-array_variable_name[index];
-*/
-console.log(list_student_information[2].email);
+// Insert a new value into Array
 
-/*
-To Insert a new value to the Array
-syntax - approach 1 - It will insert value at end of the array list
-array_variable_name.push(value);
-*/
-list_student_information.push({name: "karthick", email: "k@gmail.com", roll_number: 689555});
+// push() -> Insert a new value at the end of array record
+// array_variable_name.push(value_1, value_2, ... , value_n);
 
-/*
-syntax - approach 2 - It will insert value at top of the array list 
-array_variable_name.unshift(value);
-*/
+studentList.push({ name: "Kumar", age: 28 }, { name: "YK", age: 27 });
 
-list_student_information.unshift({name: "zyan", email: "z@gmail.com", roll_number: 984554565});
+// unshift() -> Insert a new value at the start of array record
+// array_variable_name.unshift(value_1, value_2, ... , value_n);
 
-/*
-To Edit/Update a value from Array
-syntax
-array_variable_name[index] = newValue;
-*/
-list_student_information[3] = {name: "new user", email: "user@gmail.com", roll_number: 1012122};
+studentList.unshift({ name: "Zyan", age: 29 });
 
-list_student_information[2].name = "Updated name";
+// To Read value from Array
+// array_variable_name[index]
 
-/*
-To Delete value from Array 
-syntax 
-array_variable_name.splice(index, 1);
-*/
-list_student_information.splice(3, 1);
+console.log(studentList[2].name);
 
-/*
-Function - It is used to write a block of code 
-syntax 
-function function_name(){
-  code logic
+// To edit a existing value from Array
+// array_variable_name[index] = value;
+
+studentList[4].name = "Dinesh";
+
+// To delete an value
+// array_variable_name.splice(index, deleteCount);
+
+studentList.splice(2, 1);
+console.log(studentList);
+
+// Function -> Block of Code
+
+// function function_name(){
+// code
+// }
+
+function onLogin() {
+  var result = "You have loggin to the application";
+  console.log(result);
 }
 
-function_name - similar to variable name, it should be a meaninful name, it should contians only A-Z, a-z, 0-9, $, _ 
-*/
+// Operators
+// 1. Arithmetic Operator -> +, -, *, /, %, ++, --
+// 2. Assignment Operator -> =
+// 3. Comparision Operator -> <, <=, >, >=, ==, ===, !=, !==
+// 4. Logical Operator -> &&, ||, !
 
-function printWelcomeMessage(){
-  var message = "Hello! Good Morning";
-  alert(message);
-}
+// && - AND
+// true && true -> true
+// true && false -> false
+// false && true -> false
+// false && false -> false
 
-function sayGoodbye(){
-  var text = "Thank you All! Bye...";
-  alert(text);
-}
+// || - OR
+// true || true -> true
+// false || true -> true
+// true || false -> true
+// false || false -> false
 
+// ! - NOT
+// ! true -> false
+// ! false -> true
+
+//Syntax - if else conditon
 /*
-Operators
-1. Arithmetic Operator +, -, *, /, %, ++, --
-2. Assignemnt Operator =
-3. Comparision Operator <, <=, >, >=, ==, !=, ===, !==
-4. Logical Operator && (AND), || (OR), ! (NOT)
-
-&& AND 
-true && true - true
-true && false - false
-false && true - false 
-false && false - false 
-
-|| OR 
-true || true - true 
-true || false - true 
-false || true - true 
-false || false - false 
-
-! NOT 
-!true - false 
-!false - true 
-*/
-/*
-If Else Condition 
-syntax 
-if(condition){
-  code logic for condition is correct  
-}
-else{
-  code logic for condition is wrong
-}
-*/
-
-/*
-Problem : To check whether a person can Vote or Not ?
-Problem Statement:
-1. To provide age(Number) as Input to program 
-2. If the person age is greater then or equal to 18 -> The person is eligible for Vote 
-3. If the person age is less then 18 -> The person is not eligible for Vote
-*/
-
-function checkVoteEligible(){
-  var age = prompt("Please enter your age");
-  if(age >= 18){
-    alert("The person is eligible for Vote");
+  if(conditon) {
+    // code block will execute if the condition is Truthy.
   }
   else{
-    alert("The person is NOT eligible for Vote")
+    // code block will execute if the condition is Falsy.
   }
+*/
+
+/*
+Problem Statement
+1. We need to provide age(Number - Data type) as input for a program 
+2. If the given age is greater than or equal to 18 -> Output - The user is eligible for Vote
+3. If the given age is less then 18 -> Output - The user is not eligible for vote
+*/
+
+function check_voting_status() {
+  var age = prompt("Enter your age in number");
+  if (age >= 18) {
+    console.log("The user is eligible for Vote");
+  } else {
+    console.log("The user is not eligible for vote");
+  }
+}
+
+//Syntax - Multipe if else conditon
+
+// if(conditon) {
+//   // code block will execute if the condition is Truthy.
+// }
+// else if(condition){
+//   // code block will execute if the condition is Truthy
+// }
+// else{
+//   // code block will execute if the condition is Falsy.
+// }
+
+/*
+1. To give person age as input -> Number
+2. idenfity -> less then 18 -> The person is Minor
+3. idenfity -> greater then or equal to 18 and less than 60 -> The person is Major
+4. idenfity -> greater then or equal to 60 -> The person is Super Citizen
+*/
+
+function check_person_age_category() {
+  var age = prompt("Enter your User Age");
+  if (age < 18) {
+    console.log("The person is Minor");
+  } else if (age >= 18 && age < 60) {
+    console.log("The person is Major");
+  } else {
+    console.log("The person is Super Citizen");
+  }
+}
+
+/* 
+Syntax - for (loop)
+for(initialization;  condition; increment/decrement){ 
+  //code block
+}
+*/
+
+for (var count = 1; count <= 10; count++) {
+  console.log("Loop is running on count ", count);
+}
+
+/*
+Find even number for given N number of limit.
+Solution: 
+1. Get number (Nth number limit) value from user while running the code.
+2. Logic for finding even number -> Number % 2 => 0
+3. Repeat this logic till n number
+*/
+
+function check_even_number() {
+  var last_number = prompt("Enter the last number");
+  for (var count = 1; count <= last_number; count++) {
+    if (count % 2 == 0) {
+      console.log(count, "is a Even number");
+    }
+  }
+}
+
+/*
+Syntax - for in (loop) - Used to iterate Object properties
+for(var key in object_variable_name){
+ // coding
+}
+*/
+
+for (var key in studentDetails) {
+  console.log("The key of object", key);
+  console.log("The value of object", studentDetails[key]);
+}
+
+/*
+Syntax - for of (loop) - Used to iterate list of Array
+for(var value of array_variable_name){
+ // coding
+}
+*/
+
+for (var value of studentList) {
+  console.log(value);
+}
+
+/*
+Syntax - While (loop) (Entry level check)
+while(condition){
+ // loop code block
+}
+*/
+
+var count = 1;
+while (count <= 10) {
+  console.log("The count is", count);
+  count = count + 1;
+}
+
+/*
+Syntax - do While (loop) (Exit level check)
+do{
+ // code block      
+}while(condition)
+*/
+
+var count = 11;
+do {
+  console.log("The count is", count);
+  count = count + 1;
+} while (count <= 10);
+
+/*Syntax - Switch Case
+switch(expression){
+  case value :
+    // code block
+    break;
+  case value :
+    // code block
+    break;
+  default:
+    //code block
+}
+*/
+
+function find_weekday() {
+  var day = prompt("Enter a number from 0 - 6");
+
+  switch (day) {
+    case "0":
+      console.log("Sunday");
+      break;
+    case "1":
+      console.log("Monday");
+      break;
+    case "2":
+      console.log("Tuesday");
+      break;
+    default:
+      console.log("Number is out of range");
+  }
+}
+
+// Local Scope -> If a variable is defined inside the function definition.
+// Global Scope -> If a variable is defined outside the function definition.
+
+// Automatic Global Scope -> If a variable is declared outside but the value is defined inside a function.
+var textMessage = "Printing this from Outside function";
+
+function displayMessage() {
+  var message = "Hello Everyone";
+  future_value = "Lunch Break!";
+  console.log(message);
+  console.log(textMessage);
+  console.log(future_value);
+}
+
+function printMessage() {
+  console.log(future_value);
+  console.log(textMessage);
+  console.log(message);
 }
