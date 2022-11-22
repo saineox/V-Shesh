@@ -39,3 +39,7 @@ button{
 textarea {
     resize: none;
   }
+
+  .user_part1 {
+    padding: 15px;
+  }

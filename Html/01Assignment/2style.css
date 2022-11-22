@@ -1,3 +1,15 @@
+*{
+    font-family:"Segoe UI","Roboto","Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    margin: 0;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    /* color: #212529; */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 .main{
     height: 94vh;
     display: flex;
@@ -8,43 +20,60 @@
 {
     background-color: #f3f3f3;
     /* height: 50vh; */
-    border: 1px solid black;
+    border: 2px solid black;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     /* width: 325px; */
     /* height: 80vh; */
+    padding: 3%;
 }
 .row{
     margin: 5px;
     padding: 5px;
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
 }
 
 .row_into_3col{
-    padding: 5px;
+    padding-left: 10px;
 }
 .user_part1
 {
-    border: 1px solid #b5adad;
-    background-color: #b5adad;
-    padding: 1px;
-    width: 20px;
+    border: 1px solid #dedede;
+    background-color: #dedede;
+    padding: 2px 6px;
+    /* width: 20px; */
+    /* justify-self: start; */
+    /* margin-right: 15px; */
+}
+.user_part2 {
+    /* align-self: left; */
+    /* justify-self: start; */
+    width:100% ;
+    border-color: antiquewhite;
+    
 }
 button{
     width: 16rem;
-    background-color: #55ACEE;
+    background-color: #007bff;
+    font-size: 15px;
+    min-height: 40px;          
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    width: 100%;
 }
 .fb {
     background-color: #3B5998;
     color: white;
     padding: 5px;
     border-radius: 4px;
-    hy
+    text-decoration: none;
+    
 }
 
 .twitter {
@@ -52,6 +81,7 @@ button{
     color: white;
     padding: 5px;
     border-radius: 4px;
+    text-decoration: none;
 }
 
 .google {
@@ -59,4 +89,35 @@ button{
     color: white;
     padding: 5px;
     border-radius: 4px;
+    text-decoration: none;
 }
+
+.or-seperator {
+    margin-top: 20px;
+    text-align: center;
+    border-top: 1px solid #ccc;
+    }
+    .or-seperator i {
+    padding: 0 10px;
+    background: #f7f7f7;
+    position: relative;
+    top: -11px;
+    z-index: 1;
+    }   
+
+
+
+.icon > a{
+margin:5px;
+
+ }
+
+ .center {
+justify-content: center;
+ }
+
+
+
+
+
+

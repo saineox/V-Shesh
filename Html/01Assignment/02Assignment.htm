@@ -6,74 +6,74 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css"> -->
-    <script src="https://kit.fontawesome.com/78906f0ae8.js" crossorigin="anonymous"></script>
+    <!-- <script src="https://kit.fontawesome.com/78906f0ae8.js" crossorigin="anonymous"></script> -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
     <link rel="stylesheet" href="2style.css">
     <title>Assignment 2</title>
 </head>
 
 <body class="main">
     <div class="container">
-        <div class="row">
-            Sign in
-        </div>
-        <div class="row">
-            <div class="user_part1">
-                <i class="user_part1 fa fa-user" aria-hidden="true"></i>
+        <form action="./signin.php" method="post">
+            <div class="row">
+                Sign in
             </div>
-            <div class="pass_part2">
-                <input type="text" name="" id="">
-            </div></input>
-            <!-- <div class="test">
-                <i class="fa fa-camera-retro fa-lg"></i> fa-lg
-                <i class="fa fa-camera-retro fa-2x"></i> fa-2x
-                <i class="fa fa-camera-retro fa-3x"></i> fa-3x
-                <i class="fa fa-camera-retro fa-4x"></i> fa-4x
-                <i class="fa fa-camera-retro fa-5x"></i> fa-5x
-            </div> -->
-        </div>
-        <div class="row">
-            <div class="user_part1">
-                <i class="user_part1 fa-solid fa-lock"></i>
+            <div class="row">
+                <div class="user_part1">
+                    <i class="user_part1 fa fa-user"></i>
+                </div>
+                <div class="user_part2">
+                    <input class="user_part2" type="text" name="" id="">
+                </div></input>
+                <!-- <div class="test">
+                    <i class="fa fa-camera-retro fa-lg"></i> fa-lg
+                    <i class="fa fa-camera-retro fa-2x"></i> fa-2x
+                    <i class="fa fa-camera-retro fa-3x"></i> fa-3x
+                    <i class="fa fa-camera-retro fa-4x"></i> fa-4x
+                    <i class="fa fa-camera-retro fa-5x"></i> fa-5x
+                </div> -->
             </div>
-            <div class="pass_part2">
-                <input type="password" name="" id=""> </input>
+            <div class="row">
+                <div class="user_part1">
+                    <i class="user_part1 fa fa-lock"></i>
+                </div>
+                <div class="user_part2">
+                    <input class="user_part2 type="password" name="" id="" required> </input>
+                </div>
             </div>
-        </div>
-        <div class="row"><button type="submit">Sign in</button></div>
-        <div class="row">
-            <div class="row_into_3col"><input type="checkbox" name="remember" id="remember">
-                Remember me
+            <div class="row"><button type="submit">Sign in</button></div>
+            <div class="row">
+                <div class="row_into_3col"><input type="checkbox" name="remember" id="remember">
+                    Remember me
+                </div>
+                <div class="row_into_3col">
+                </div>
+                <div class="row_into_3col">
+                    Forget password?
+                </div>
             </div>
-            <div class="row_into_3col">
-
+                <div class="or-seperator"><i>or</i></div>
+            
+            <div class="row center">Login with your social media account</div>
+            <div class="row">
+                <div class="row_into_3col icon">
+                    <a href="#" class="fb btn">
+                        <i class="fa fa-facebook fa-fw"></i>facebook
+                    </a>
+            
+                    <a href="#" class="twitter btn">
+                        <i class="fa fa-twitter fa-fw"></i> Twitter
+                    </a>
+            
+                    <a href="#" class="google btn">
+                        <i class="fa fa-google fa-fw"></i> Google
+                    </a>
+                </div>
             </div>
-            <div class="row_into_3col">
-                Forget password?
-            </div>
-        </div>
-        <div class="row">
-            -------------or-------------
-        </div>
-        <div class="row">Login with your social media account</div>
-        <div class="row">
-            <div class="row_into_3col icon">
-                <a href="#" class="fb btn">
-                    <i class="fa fa-facebook fa-fw"></i>facebook
-                </a>
-            </div>
-            <div class="row_into_3col icon">
-                <a href="#" class="twitter btn">
-                    <i class="fa fa-twitter fa-fw"></i> Twitter
-                </a>
-            </div>
-            <div class="row_into_3col icon">
-                <a href="#" class="google btn">
-                    <i class="fa fa-google fa-fw"></i> Google
-                </a>
-
-            </div>
-        </div>
-        <div class="row">Don't have an account? Sign up here!</div>
+            <div class="or-seperator"></div>
+            <div class="row center">Don't have an account? Sign up here!</div>
+        </form>
     </div>
 </body>
 
