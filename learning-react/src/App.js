@@ -1,10 +1,14 @@
 import React from "react";
 // import App from "./Appx";
-import LoginPage from "./component/login";
+import LoginPage from "./components/login";
+import "./App.css";
 
 const App = () => {
   return (
-    <div>
+    <div className="main">
+      
+     
+    
       <h1> Welcome to react </h1>
       <LoginPage></LoginPage>
     </div>
