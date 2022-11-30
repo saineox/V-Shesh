@@ -1,6 +1,7 @@
 // import React from "react";
-
 import React, { useState } from "react";
+import { GiTiredEye } from 'react-icons/gi';
+import { GiEyelashes } from 'react-icons/gi';
 
 const LoginPage = () => {
 
@@ -61,7 +62,9 @@ const LoginPage = () => {
           placeholder="Please enter email id"
           onChange={OnHandleInput} name="email_id"
           />
-          <i class="fa-solid fa-eyes"></i>
+        
+          <GiEyelashes />
+          <GiTiredEye />
       </div>
       <div className="space">
         <label className="align-label">Enter your Password</label>

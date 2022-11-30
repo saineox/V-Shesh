@@ -1,7 +1,7 @@
 import React from "react";
 // import App from "./Appx";
 
-// import LoginPage from "./components/login";
+import LoginPage from "./components/login";
 import RegisterPage from "./components/register";
 import "./App.css";
 
@@ -9,8 +9,8 @@ const App = () => {
   return (
     <div className="main">
       <h1> Welcome to react </h1>
-      <RegisterPage></RegisterPage>
-     {/* <LoginPage></LoginPage> */}
+      {/* <RegisterPage></RegisterPage> */}
+     <LoginPage></LoginPage>
     </div>
   );
 };
