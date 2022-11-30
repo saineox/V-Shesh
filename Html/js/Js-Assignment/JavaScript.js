@@ -165,9 +165,28 @@ function dayTime() {
 }
 
 
+// 1. Read a number and Print the Fibonacci Sequence.
+// Test data : 5
+// Output : 0, 1, 1, 2, 3, 5,8
 
+function fibonacci(){
+  var before_addition_of_twonumbers = 0 ;
+  var after_addition_of_twonumbers = 0 ;
+  var addition_of_twonumbers = 0;
+  var fiboNumberList = 'List of fibo <br> 0';
+  for(var number=0; number < 5; number++){
+    // number1 = number1;
+    // number2 = number2 + number;
 
+    before_addition_of_twonumbers = addition_of_twonumbers;
+    addition_of_twonumbers == before_addition_of_twonumbers + after_addition_of_twonumbers;
+    console.log(addition_of_twonumbers);
+    fiboNumberList = fiboNumberList + "<br>" + addition_of_twonumbers;
+    after_addition_of_twonumbers = addition_of_twonumbers;
 
+  }
+  element.innerHTML = fiboNumberList;
+}
 
 
 class human {
@@ -203,3 +222,6 @@ class human {
 // let pradeep = new pwd();
 // amol.legs();
 // pradeep.legs();
+
+//fibonacci number in javascript?
+
