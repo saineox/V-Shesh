@@ -38,12 +38,23 @@
 
 
 button {
-  padding: 2%;
-  background-color: #007bff;
+  margin: 10px;
+  padding: 10px;
+ /* background-color: #007bff;*/
   border-color: #007bff;
+  background: -webkit-linear-gradient(to right, #9324ee, #d8363a, #dd3675, #1d97de);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: linear-gradient(to right,#124686 , #5b86e5);
+
   border-radius: 2px;
   color: #fff;
   font-weight: bold;
+  width: 10vw;
+
+}
+button:hover {
+  background-color: #007bff;
+
 }
 
 
@@ -67,4 +78,21 @@ button {
 
 .font{
   font-size: 22px;
+}
+
+.password_eye {
+  margin: -9px -15px;
+  z-index: 999;
+  background-color: #489f0f;
+  border: 1px solid whitesmoke;
+  
+  border-radius: 5px;
+}
+
+.but{
+  
+
+
+
+  
 }

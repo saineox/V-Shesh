@@ -2,7 +2,7 @@ import React from "react";
 
 const RegisterPage = () => {
   return(
-    <div>
+    <div className="main">
       <h1>Register Page</h1>
       <div className="space">
         <label className="align-label">Enter your UserName</label>

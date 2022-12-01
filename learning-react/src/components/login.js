@@ -1,27 +1,26 @@
 // import React from "react";
 import React, { useState } from "react";
-import { GiTiredEye } from 'react-icons/gi';
-import { GiEyelashes } from 'react-icons/gi';
+import { GiTiredEye } from "react-icons/gi";
+import { GiEyelashes } from "react-icons/gi";
 
 const LoginPage = () => {
-
-  
-  
   let greetings = "Welcome to login page";
   var studentInfo = {
     id: 111,
     name: "Shaktiman",
     email: "gangadhar@vshesh.com",
   };
-  
+
   const onLogInAction = () => {
     alert(greetings);
   };
-  
+
   const [formValue, setFormValue] = useState({
     email_id: " ",
     password: " ",
   });
+
+  const [passwordStatus, setpasswordStatus] = useState(true);
 
   const OnHandleInput = (event) => {
     // console.log(event.target.value);
@@ -29,11 +28,19 @@ const LoginPage = () => {
     console.log(formValue);
   };
 
+  const passwordVisiblty = (status) => {(
+    setpasswordStatus(status)
+    
+  )};
+
   return (
-    <div className="login">
-      <div class="js_output">
+    <div className="main">
+      <div className="js_output">
         <h2> {greetings}</h2>
-        <p> Id : {studentInfo.id}  Name : {studentInfo.name} </p>
+        <p>
+          {" "}
+          Id : {studentInfo.id}     Name : {studentInfo.name}{" "}
+        </p>
         <p> Email : {studentInfo.email} </p>
         <p> Email : {formValue.email_id} </p>
         <h3>
@@ -60,20 +67,24 @@ const LoginPage = () => {
           type="text"
           className="align-input"
           placeholder="Please enter email id"
-          onChange={OnHandleInput} name="email_id"
-          />
-        
-          <GiEyelashes />
-          <GiTiredEye />
+          onChange={OnHandleInput}
+          name="email_id"
+        />
       </div>
       <div className="space">
         <label className="align-label">Enter your Password</label>
         <input
-          type="password"
+          type={passwordStatus ? "password" : "text"}
           className="align-input"
           placeholder="Please enter password"
-          onChange={OnHandleInput} name="password"
+          onChange={OnHandleInput}
+          name="password"
         />
+        {passwordStatus ? (
+          <GiEyelashes className="password_eye" size={30} onClick={() => passwordVisiblty(false)} />
+        ) : (
+          <GiTiredEye className="password_eye" size={30} onClick={() => passwordVisiblty(true)} />
+        )}
       </div>
       <div className="space">
         <button className="button">Login</button>
