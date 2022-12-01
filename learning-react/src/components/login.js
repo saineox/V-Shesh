@@ -2,6 +2,7 @@
 import React, { useState } from "react";
 import { GiTiredEye } from "react-icons/gi";
 import { GiEyelashes } from "react-icons/gi";
+import { NavLink } from "react-router-dom";
 
 const LoginPage = () => {
   let greetings = "Welcome to login page";
@@ -28,10 +29,9 @@ const LoginPage = () => {
     console.log(formValue);
   };
 
-  const passwordVisiblty = (status) => {(
-    setpasswordStatus(status)
-    
-  )};
+  const passwordVisiblty = (status) => {
+    setpasswordStatus(status);
+  };
 
   return (
     <div className="main">
@@ -81,9 +81,17 @@ const LoginPage = () => {
           name="password"
         />
         {passwordStatus ? (
-          <GiEyelashes className="password_eye" size={30} onClick={() => passwordVisiblty(false)} />
+          <GiEyelashes
+            className="password_eye"
+            size={30}
+            onClick={() => passwordVisiblty(false)}
+          />
         ) : (
-          <GiTiredEye className="password_eye" size={30} onClick={() => passwordVisiblty(true)} />
+          <GiTiredEye
+            className="password_eye"
+            size={30}
+            onClick={() => passwordVisiblty(true)}
+          />
         )}
       </div>
       <div className="space">
@@ -92,6 +100,14 @@ const LoginPage = () => {
           onclickAction
         </button>
       </div>
+      <div className="space">
+        <h1>Conditional Rendering Demos</h1>
+        <h2>Inline IF condition</h2>
+        {false && <h1>Good Day!</h1>}
+        <h2>Inline IF ELSE Condition</h2>
+        {false ? <h1>Good Morning!</h1> : <h1>Good Night</h1>}
+      </div>
+      <NavLink to="/">Go to Home Page</NavLink>
     </div>
   );
 };
