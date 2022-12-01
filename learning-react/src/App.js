@@ -9,8 +9,8 @@ const App = () => {
   return (
     <div className="main">
       <h1> Welcome to react </h1>
-      {/* <RegisterPage></RegisterPage> */}
-     <LoginPage></LoginPage>
+      <RegisterPage></RegisterPage>
+     {/* <LoginPage></LoginPage> */}
     </div>
   );
 };
