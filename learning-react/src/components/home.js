@@ -8,6 +8,8 @@ const HomePage = () => {
       <NavLink to="/login">Navigate to Login Page</NavLink>
       <br />
       <NavLink to="/register">Create a New Account</NavLink>
+      <br />
+      <NavLink to="/mail">Nested Navigation Page</NavLink>
     </div>
   );
 };

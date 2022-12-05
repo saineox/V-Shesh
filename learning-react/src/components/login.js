@@ -95,8 +95,8 @@ const LoginPage = () => {
         )}
       </div>
       <div className="space">
-        <button className="button">Login</button>
-        <button className="button" onClick={() => onLogInAction()}>
+        <button className="button-63">Login</button>
+        <button className="button-63" onClick={() => onLogInAction()}>
           onclickAction
         </button>
       </div>
